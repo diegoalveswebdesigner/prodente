@@ -1,0 +1,26 @@
+@import "./global/global.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/cores.css";
+@import "./utilidades/componentes.css";
+
+/* header */
+@import "./global/header.css";
+@import "./home/hero.css";
+
+/* Sobre Nós */
+@import "./home/sobre.css";
+
+/* Tratamentos */
+@import "./home/tratamentos.css";
+
+/* Harmonização */
+@import "./home/harmonizacao.css";
+
+/* Depoimentos */
+@import "./home/depoimentos.css";
+
+/* CTA */
+@import "./home/cta.css";
+
+/* Footer */
+@import "./global/footer.css";

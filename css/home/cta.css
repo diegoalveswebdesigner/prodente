@@ -1,0 +1,23 @@
+.cta {
+  margin-top: 125px;
+  padding: 70px 200px;
+  background: rgba(204, 141, 240, 0.25);
+  text-align: center;
+  align-items: center;
+}
+
+.cta p {
+  padding-top: 20px;
+  color: var(--texto-roxo);
+  font: 400 1.125rem/1.45 "Plus Jakarta Sans", sans-serif;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.cta h2 {
+  font: 600 2.55rem/1.1 "Degular", sans-serif;
+  color: linear;
+  background: -webkit-linear-gradient(0deg, #531f70, #cc8df0);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

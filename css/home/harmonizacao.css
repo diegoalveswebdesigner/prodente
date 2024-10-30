@@ -1,0 +1,59 @@
+.harmonizacao {
+  margin-top: 125px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-right: 55px;
+}
+
+.harmonizacao-conteudo {
+  padding-left: 30px;
+  padding-top: 75px;
+}
+
+.harmonizacao-conteudo h3 {
+  padding-bottom: 25px;
+}
+
+.foto-dra img {
+  margin-top: -6px;
+  display: block;
+  margin-left: 140px;
+  height: 80%;
+}
+
+.harmonizacao-itens {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  row-gap: 40px;
+}
+
+.coluna-1,
+.coluna-2 {
+  display: grid;
+  gap: 10px;
+  max-width: 28ch;
+}
+
+.coluna-1 p,
+.coluna-2 p {
+  padding-bottom: 50px;
+}
+
+.bg-detalhe {
+  margin-top: -352px;
+  height: 260px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(83, 31, 112, 0.85) 0%,
+    rgba(204, 141, 240, 0.85) 100%
+  );
+}
+
+/* background: linear-gradient(
+  0deg,
+  rgba(204, 141, 240, 1) 50%,
+  rgba(255, 255, 255, 1) 50%
+); */

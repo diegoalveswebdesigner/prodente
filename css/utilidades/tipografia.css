@@ -1,0 +1,64 @@
+.font-titulos-r {
+  font: 620 3rem/1.2 "Degular", sans-serif;
+  color: linear;
+  background: -webkit-linear-gradient(0deg, #531f70, #cc8df0);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.font-titulos-v {
+  font: 620 3rem/1.2 "Degular", sans-serif;
+  color: linear;
+  background: -webkit-linear-gradient(0deg, #406725, #7abc15);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitulos-v {
+  font: 600 1.75rem/1.12 "Degular", sans-serif;
+  color: var(--texto-verde);
+}
+
+.subtitulos-r {
+  font: 600 1.75rem/1.12 "Degular", sans-serif;
+  color: var(--texto-roxo);
+}
+
+.degular-semibold {
+  font: 500 1.25rem/1.2 "Degular", sans-serif;
+}
+
+.font-header {
+  font: 550 0.825rem/1.25 "Plus Jakarta Sans", sans-serif;
+}
+
+.font-texto {
+  font: 400 1.15rem/1.35 "Plus Jakarta Sans", sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.harmonizacao-texto-branco {
+  padding-bottom: 50px;
+  font: 400 0.975rem/1.45 "Plus Jakarta Sans", sans-serif;
+  letter-spacing: 0.2px;
+  color: var(--bg-branco);
+}
+
+.harmonizacao-titulo-branco {
+  font: 600 1.25rem/1.2 "Degular", sans-serif;
+  color: var(--bg-branco);
+  letter-spacing: 0.5px;
+}
+
+.harmonizacao-texto-roxo {
+  padding-bottom: 50px;
+  font: 400 0.975rem/1.45 "Plus Jakarta Sans", sans-serif;
+  letter-spacing: 0.2px;
+  color: var(--texto-roxo);
+}
+
+.harmonizacao-titulo-roxo {
+  font: 600 1.25rem/1.2 "Degular", sans-serif;
+  color: var(--texto-roxo);
+  letter-spacing: 0.5px;
+}

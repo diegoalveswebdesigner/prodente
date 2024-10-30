@@ -1,0 +1,77 @@
+.header-bg {
+  background-color: var(--bg-branco);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.header-menu a {
+  padding: 8px 0px;
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.botao-menu {
+  display: inline-block;
+  padding: 0px 32px;
+  background: linear-gradient(90deg, #406725, #7abc15);
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: var(--bg-branco);
+  font: 500 1.05rem/1 "Degular", sans-serif;
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
+}
+
+.header-menu a:hover {
+  color: var(--bg-verde);
+}
+
+.botao-menu a:hover {
+  color: var(--bg-branco);
+}
+
+.botao-menu:hover {
+  background: linear-gradient(90deg, #7abc15, #406725);
+}
+
+.header-menu a:hover::after,
+.header-menu a.ativo::after {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .header-menu {
+    gap: 16px;
+  }
+  .header-menu a {
+    background: var(--cor-11);
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    font-family: "Poppins";
+    font-weight: 400;
+  }
+  .header-menu a:hover {
+    background-color: var(--cor-10);
+  }
+  .header a:after {
+    display: none;
+  }
+}

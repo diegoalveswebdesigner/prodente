@@ -1,0 +1,36 @@
+:root {
+  --texto-verde: rgba(25, 39, 33, 0.85);
+  --texto-roxo: rgba(35, 25, 39, 0.85);
+  --bg-branco: #ffffff;
+  --bg-verde: #1f7028;
+  --verde-1: #7abc15;
+  --roxo-1: #7d38b1;
+  --teste: ;
+}
+
+/* --fade-roxo: linear-gradient(0deg, #531f70, #cc8df0); */
+/* --fade-verde: linear-gradient(0deg, #406725, #7abc15); */
+
+.texto-verde {
+  color: var(--texto-verde);
+}
+
+.texto-roxo {
+  color: var(--texto-roxo);
+}
+
+.bg-branco {
+  color: var(--bg-branco);
+}
+
+.bg-verde {
+  color: var(--bg-verde);
+}
+
+.verde-1 {
+  color: var(--verde-1);
+}
+
+.roxo-1 {
+  color: var(--roxo-1);
+}
