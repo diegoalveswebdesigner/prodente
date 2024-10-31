@@ -209,13 +209,13 @@
     max-width: 76%;
   }
   .diferencial-hero {
-    margin-top: 310px;
+    margin-top: 315px;
     position: absolute;
     z-index: 2;
   }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 885px) {
   .introducao {
     display: grid;
     grid-template-columns: 1fr;

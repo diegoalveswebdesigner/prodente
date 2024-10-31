@@ -1,5 +1,5 @@
 .font-titulos-r {
-  font: 620 3rem/1.2 "Degular", sans-serif;
+  font: 600 3rem/1.2 "Degular", sans-serif;
   color: linear;
   background: -webkit-linear-gradient(0deg, #531f70, #cc8df0);
   background-clip: text;
@@ -7,7 +7,7 @@
 }
 
 .font-titulos-v {
-  font: 620 3rem/1.2 "Degular", sans-serif;
+  font: 600 3rem/1.2 "Degular", sans-serif;
   color: linear;
   background: -webkit-linear-gradient(0deg, #406725, #7abc15);
   background-clip: text;
