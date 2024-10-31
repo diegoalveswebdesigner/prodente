@@ -31,10 +31,11 @@
 <body>
   <header class="header-bg">
     <div class="header container">
-      <a href="./">
-        <img src="./img/logo-header.png" width="180" height="auto" alt="ProDente">
-      </a>
-
+      <div class="mobile">
+        <a href="./">
+          <img src="./img/logo-header.png" width="180" height="auto" alt="ProDente">
+        </a>
+      </div>
       <nav aria-label="primaria">
         <ul class="header-menu font-header texto-verde">
           <li><a href="./index.html">Início</a></li>
@@ -59,25 +60,29 @@
           <p>Odontologia focada na qualidade de vida da sua família!</p>
         </div>
         <h1>Sua família merece sorrir com saúde e beleza</h1>
-        <p class="font-texto texto-roxo fadeInDown" data-anime="400">Você e sua família sorrindo com total satisfação</p>
-        <a class="botao-hero fadeInDown" data-anime="600" href="https://tinyurl.com/yxtwvd5n" target="_blank">Agende uma consulta</a>
+        <p class="subtitulo-header font-texto texto-roxo fadeInDown" data-anime="400">Você e sua família sorrindo com total satisfação</p>
+        <div class="botao-hero-mobile">
+          <a class="botao-hero fadeInDown" data-anime="600" href="https://tinyurl.com/yxtwvd5n" target="_blank">Agende uma consulta</a>
+        </div>
       </div>
-      <img src="./img/fotos/hero.png" alt="Dr. Thiago Stuqui">
-    </div>
+      <div class="imagens-hero">
+        <img class="imagem-hero-normal" src="./img/fotos/hero.png" alt="Dr. Thiago Stuqui">
+        <img class="imagem-mobile" src="./img/fotos/hero-mobile.png" alt="Dr. Thiago Stuqui">
+      </div>
 
-    <div class="diferencial-hero">
-      <ul>
-        <li><img src="./img/icones/ambiente.png" width="40" height="auto" alt="">
-          <p>Ambiente sofisticado e acolhedor</p>
-        </li>
-        <li><img src="./img/icones/humanizado.png" width="40" height="auto" alt="">
-          <p>Atendimento humanizado e personalizado</p>
-        </li>
-        <li><img src="./img/icones/tecnologia.png" width="40" height="auto" alt="">
-          <p>Equipamentos modernos e precisos</p>
-        </li>
-      </ul>
-    </div>
+      <div class="diferencial-hero">
+        <ul>
+          <li><img src="./img/icones/ambiente.png" width="40" height="auto" alt="ambiente">
+            <p>Ambiente sofisticado e acolhedor</p>
+          </li>
+          <li><img src="./img/icones/humanizado.png" width="40" height="auto" alt="atendimento">
+            <p>Atendimento humanizado e personalizado</p>
+          </li>
+          <li><img src="./img/icones/tecnologia.png" width="40" height="auto" alt="tecnologia">
+            <p>Equipamentos modernos e precisos</p>
+          </li>
+        </ul>
+      </div>
   </main>
 
   <!-- Sobre Nós -->
