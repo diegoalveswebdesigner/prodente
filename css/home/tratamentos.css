@@ -149,7 +149,7 @@
 
   .tratamentos-lista li img {
     margin-bottom: 20px;
-    max-width: 50%;
+    max-width: 85%;
   }
 
   .tratamentos-lista li h4 {
@@ -192,7 +192,7 @@
 }
 @media (max-width: 580px) {
   .tratamentos-head {
-    margin-top: 150px;
+    margin-top: 60px;
     display: grid;
     grid-template-columns: 1fr;
     margin-bottom: 40px;

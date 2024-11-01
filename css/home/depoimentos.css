@@ -1,8 +1,9 @@
 .depoimentos-head {
-  margin-top: 100px;
+  margin-top: 10px;
   margin-bottom: 50px;
   display: grid;
   place-content: center;
+  z-index: 3;
 }
 
 .depoimentos-lista {
@@ -45,4 +46,84 @@
   color: var(--bg-branco);
   font: 400 0.92rem/1.55 "Plus Jakarta Sans", sans-serif;
   margin-bottom: 15px;
+}
+
+@media (max-width: 1180px) {
+  .depoimentos-head {
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .depoimentos-head {
+    margin-top: 100px;
+  }
+
+  .depoimentos-head h2 {
+    font: 600 2.5rem/1.2 "Degular", sans-serif;
+  }
+  .depoimentos-head h3 {
+    padding-top: 15px;
+    font: 600 1.35rem/1.12 "Degular", sans-serif;
+  }
+
+  .depoimentos-lista img {
+    max-width: 40%;
+  }
+
+  .depoimentos-lista li h4 {
+    padding-top: 15px;
+    color: var(--bg-branco);
+    font: 600 1.1rem/1.25 "Plus Jakarta Sans", sans-serif;
+    margin-bottom: 15px;
+  }
+
+  .depoimentos-lista li p {
+    color: var(--bg-branco);
+    font: 400 0.75rem/1.65 "Plus Jakarta Sans", sans-serif;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 885px) {
+  .depoimentos-lista li {
+    min-width: 20ch;
+  }
+
+  .depoimentos-lista {
+    overflow: auto;
+    gap: 40px;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 540px) {
+  .depoimentos-lista {
+    padding-top: 0px;
+    margin-top: 10px;
+  }
+  .depoimentos-head h2 {
+    display: inline-block;
+    text-align: center;
+
+    font: 600 2.2rem/1.2 "Degular", sans-serif;
+  }
+  .depoimentos-head h3 {
+    text-align: center;
+    padding-top: 15px;
+    font: 600 1.15rem/1.12 "Degular", sans-serif;
+    margin-bottom: 5px;
+  }
+
+  .depoimentos-lista li h4 {
+    padding-top: 10px;
+    color: var(--bg-branco);
+    font: 600 0.85rem/1.25 "Plus Jakarta Sans", sans-serif;
+    margin-bottom: 15px;
+  }
+
+  .depoimentos-head {
+    margin-bottom: 20px;
+    margin-top: 60px;
+  }
 }

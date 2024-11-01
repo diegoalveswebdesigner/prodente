@@ -21,3 +21,53 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@media (max-width: 1180px) {
+  .cta {
+    margin-top: 100px;
+    padding: 70px 140px;
+  }
+
+  .cta p {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+
+@media (max-width: 1030px) {
+}
+
+@media (max-width: 885px) {
+  .cta {
+    margin-top: 80px;
+    padding: 60px 80px;
+  }
+
+  .cta p {
+    padding-left: 25px;
+    padding-right: 25px;
+    font: 400 1rem/1.45 "Plus Jakarta Sans", sans-serif;
+  }
+
+  .cta h2 {
+    font: 600 2.25rem/1.1 "Degular", sans-serif;
+  }
+}
+
+@media (max-width: 580px) {
+  .cta {
+    margin-top: 60px;
+    padding: 30px 20px;
+  }
+
+  .cta p {
+    padding-left: 10px;
+    padding-right: 10px;
+    font: 400 0.85rem/1.55 "Plus Jakarta Sans", sans-serif;
+    padding-bottom: 25px;
+  }
+
+  .cta h2 {
+    font: 600 2rem/1.1 "Degular", sans-serif;
+  }
+}

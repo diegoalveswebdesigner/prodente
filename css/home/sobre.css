@@ -205,9 +205,6 @@
   }
 }
 
-@media (max-width: 460px) {
-}
-
 @media (max-width: 1130px) {
   .frase {
     margin-top: 50px;
@@ -257,5 +254,14 @@
     font: 600 1.6rem/1.15 "Degular", sans-serif;
     padding-left: 40px;
     padding-right: 40px;
+  }
+}
+
+@media (max-width: 485px) {
+  .sobre h2 {
+    padding-top: 60px;
+    text-align: center;
+    font: 600 2.25rem/1.2 "Degular", sans-serif;
+    padding-bottom: 5px;
   }
 }

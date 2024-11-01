@@ -68,23 +68,188 @@
 }
 
 .footer-copy p {
-  padding: 0px 180px;
+  padding: 0px 120px;
   font: 400 0.725rem/1.25 "Plus Jakarta Sans", sans-serif;
   letter-spacing: 0.2px;
   color: var(--texto-verde);
   opacity: 50%;
 }
 
-@media (max-width: 600px) {
-  .footer > img {
-    display: none;
+@media (max-width: 1100px) {
+  .footer h3 {
+    margin-bottom: 20px;
+    color: var(--texto-verde);
+    font: 600 1.35rem/1 "Degular", sans-serif;
   }
-  .footer {
-    grid-template-columns: 1fr;
-    gap: 60px;
+
+  .footer-contato ul {
+    margin-bottom: 22px;
+  }
+
+  .footer li {
+    margin-bottom: 15px;
+    font: 400 0.825rem/1.35 "Plus Jakarta Sans", sans-serif;
+    letter-spacing: 0.2px;
+    color: var(--texto-verde);
+  }
+
+  .footer-redes img {
+    margin-top: -5px;
+    max-width: 80%;
+  }
+
+  .footer-redes {
+    display: flex;
+    gap: 15px;
+  }
+  #redes {
+    margin-top: 30px;
   }
 
   .footer-copy {
-    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    place-self: center;
+    border-top: 2px solid rgba(0, 0, 0, 0.05);
+    padding-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .footer-copy p {
+    text-align: center;
+    padding: 0px 70px;
+    font: 400 0.655rem/1.25 "Plus Jakarta Sans", sans-serif;
+  }
+}
+
+@media (max-width: 1030px) {
+  .footer li {
+    margin-bottom: 15px;
+    font: 400 0.925rem/1.35 "Plus Jakarta Sans", sans-serif;
+    letter-spacing: 0.2px;
+    color: var(--texto-verde);
+  }
+}
+
+@media (max-width: 845px) {
+  .footer li {
+    margin-bottom: 15px;
+    font: 400 0.785rem/1.35 "Plus Jakarta Sans", sans-serif;
+    letter-spacing: 0.2px;
+    color: var(--texto-verde);
+  }
+  .footer-links {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .footer-links img {
+    order: 1;
+  }
+
+  .footer-copy p {
+    padding: 0px 10px;
+    font: 400 0.585rem/1.25 "Plus Jakarta Sans", sans-serif;
+    letter-spacing: 0.2px;
+    color: var(--texto-verde);
+    opacity: 50%;
+  }
+
+  #logo-footer {
+    max-width: 55%;
+  }
+
+  .botao-cta {
+    padding: 10px 30px;
+    font: 500 1rem/1 "Degular", sans-serif;
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 580px) {
+  .footer li {
+    margin-bottom: 10px;
+    font: 400 0.765rem/1.35 "Plus Jakarta Sans", sans-serif;
+    letter-spacing: 0.2px;
+    color: var(--texto-verde);
+  }
+  .footer-links {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto;
+    gap: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .footer-copy p {
+    padding: 0px 10px;
+    font: 400 0.585rem/1.25 "Plus Jakarta Sans", sans-serif;
+    letter-spacing: 0.2px;
+    color: var(--texto-verde);
+    opacity: 50%;
+  }
+
+  .footer-informacoes h3 {
+    margin-bottom: 10px;
+  }
+
+  .footer-contato h3 {
+    margin-bottom: 10px;
+  }
+
+  #logo-footer {
+    display: none;
+  }
+
+  .footer-copy {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    place-self: center;
+    border-top: 2px solid rgba(0, 0, 0, 0.05);
+    padding-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .footer-copy p {
+    padding: 0px 10px;
+    font: 400 0.515rem/1.25 "Plus Jakarta Sans", sans-serif;
+    letter-spacing: 0.2px;
+    color: var(--texto-verde);
+    opacity: 60%;
+  }
+
+  .botao-cta {
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #406725, #7abc15);
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    color: var(--bg-branco);
+    font: 500 0.85rem/1.25 "Degular", sans-serif;
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 360px) {
+  .botao-cta {
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #406725, #7abc15);
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    color: var(--bg-branco);
+    font: 500 0.725rem/1.25 "Degular", sans-serif;
+    letter-spacing: 1px;
   }
 }
