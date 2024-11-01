@@ -264,4 +264,8 @@
     font: 600 2.25rem/1.2 "Degular", sans-serif;
     padding-bottom: 5px;
   }
+
+  .sobre {
+    margin-top: -185px;
+  }
 }
