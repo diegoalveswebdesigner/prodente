@@ -278,12 +278,12 @@
 
 @media (max-width: 460px) {
   .sobre {
-    margin-top: 40px;
+    margin-top: 60px;
   }
 }
 
 @media (max-width: 420px) {
   .sobre {
-    margin-top: -40px;
+    margin-top: -20px;
   }
 }
