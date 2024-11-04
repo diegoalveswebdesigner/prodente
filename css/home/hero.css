@@ -380,4 +380,13 @@
     text-align: center;
     max-width: 20ch;
   }
+
+  .introducao-frase {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    max-width: max-content;
+    justify-self: center;
+    align-items: center;
+  }
 }
