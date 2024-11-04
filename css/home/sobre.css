@@ -266,6 +266,18 @@
   }
 
   .sobre {
-    margin-top: 60px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 470px) {
+  .sobre {
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 460px) {
+  .sobre {
+    margin-top: 80px;
   }
 }
