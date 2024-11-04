@@ -392,6 +392,13 @@
   }
 }
 
+@media (max-width: 440px) {
+  .introducao-conteudo h1 {
+    margin-top: 20px;
+    padding-top: 40px;
+  }
+}
+
 @media (max-width: 420px) {
   .introducao-conteudo {
     margin-top: 20px;
