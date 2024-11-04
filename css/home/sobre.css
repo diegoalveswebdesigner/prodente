@@ -280,4 +280,10 @@
   .sobre {
     margin-top: 40px;
   }
+
+  
+@media (max-width: 420px) {
+  .sobre {
+    margin-top: -40px;
+  }
 }
