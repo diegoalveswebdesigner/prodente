@@ -392,10 +392,15 @@
   }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 420px) {
+  .introducao-conteudo {
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+  }
+
   .introducao-frase {
     margin-top: 25px;
-    margin: 0 auto;
     display: grid;
     grid-template-columns: auto 1fr;
     max-width: max-content;
