@@ -388,5 +388,19 @@
     max-width: max-content;
     justify-self: center;
     align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 440px) {
+  .introducao-frase {
+    margin-top: 25px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    max-width: max-content;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
   }
 }
