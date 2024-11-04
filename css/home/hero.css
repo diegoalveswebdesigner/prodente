@@ -394,9 +394,14 @@
 
 @media (max-width: 420px) {
   .introducao-conteudo {
+    padding-top: 20px;
     justify-self: center;
     align-items: center;
     text-align: center;
+  }
+
+  .introducao-conteudo h1 {
+    padding-bottom: 20px;
   }
 
   .introducao-frase {
